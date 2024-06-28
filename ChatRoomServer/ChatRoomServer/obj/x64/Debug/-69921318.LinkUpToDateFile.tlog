@@ -1,0 +1,1 @@
+g++ -o "/root/projects/ChatRoomServer/bin/x64/Debug/ChatRoomServer.out" -Wl,--no-undefined -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack /root/projects/ChatRoomServer/obj/x64/Debug/main.o

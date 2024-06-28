@@ -1,0 +1,31 @@
+﻿  正在清理远程项目目录
+  正在验证源
+  正在将源远程复制到“192.168.1.52”
+  正在验证体系结构
+  正在验证体系结构
+  正在启动远程生成
+  正在编译源:
+  main.cpp
+D:\CODE\MYCODE\ChatRoomServer\ChatRoomServer\main.cpp(119,62): warning : cast to pointer from integer of different size [-Wint-to-pointer-cast]
+D:\CODE\MYCODE\ChatRoomServer\ChatRoomServer\main.cpp(119,62): warning :   119 |         setsockopt(serverFileSock, IPPROTO_TCP, TCP_NODELAY, (void*)opt_val, sizeof(opt_val));
+D:\CODE\MYCODE\ChatRoomServer\ChatRoomServer\main.cpp(119,62): warning :       |                                                              ^~~~~~~~~~~~~~
+D:\CODE\MYCODE\ChatRoomServer\ChatRoomServer\main.cpp(124,40): warning : conversion from ‘int’ to ‘uint16_t’ {aka ‘short unsigned int’} may change value [-Wconversion]
+D:\CODE\MYCODE\ChatRoomServer\ChatRoomServer\main.cpp(124,40): warning :   124 |         serverMsgAddr.sin_port = htons(msgPort);
+D:\CODE\MYCODE\ChatRoomServer\ChatRoomServer\main.cpp(124,40): warning :       |                                        ^~~~~~~
+D:\CODE\MYCODE\ChatRoomServer\ChatRoomServer\main.cpp(129,41): warning : conversion from ‘int’ to ‘uint16_t’ {aka ‘short unsigned int’} may change value [-Wconversion]
+D:\CODE\MYCODE\ChatRoomServer\ChatRoomServer\main.cpp(129,41): warning :   129 |         serverFileAddr.sin_port = htons(filePort);
+D:\CODE\MYCODE\ChatRoomServer\ChatRoomServer\main.cpp(129,41): warning :       |                                         ^~~~~~~~
+D:\CODE\MYCODE\ChatRoomServer\ChatRoomServer\main.cpp(214,71): warning : conversion from ‘size_t’ {aka ‘long unsigned int’} to ‘int’ may change value [-Wconversion]
+D:\CODE\MYCODE\ChatRoomServer\ChatRoomServer\main.cpp(214,71): warning :   214 |                                                 sendMsg(buffer, strlen(buffer), tempfd);
+D:\CODE\MYCODE\ChatRoomServer\ChatRoomServer\main.cpp(214,71): warning :       |                                                                 ~~~~~~^~~~~~~~
+D:\CODE\MYCODE\ChatRoomServer\ChatRoomServer\main.cpp(257,87): warning : comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<std::pair<_IO_FILE*, unsigned int> >::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+D:\CODE\MYCODE\ChatRoomServer\ChatRoomServer\main.cpp(257,87): warning :   257 |                                                                 for (index = 0; index < uploadQueue.size(); ++index) {
+D:\CODE\MYCODE\ChatRoomServer\ChatRoomServer\main.cpp(257,87): warning :       |                                                                                 ~~~~~~^~~~~~~~~~~~~~~~~~~~
+D:\CODE\MYCODE\ChatRoomServer\ChatRoomServer\main.cpp(298,87): warning : comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<std::pair<_IO_FILE*, unsigned int> >::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+D:\CODE\MYCODE\ChatRoomServer\ChatRoomServer\main.cpp(298,87): warning :   298 |                                                                 for (index = 0; index < uploadQueue.size(); ++index) {
+D:\CODE\MYCODE\ChatRoomServer\ChatRoomServer\main.cpp(298,87): warning :       |                                                                                 ~~~~~~^~~~~~~~~~~~~~~~~~~~
+D:\CODE\MYCODE\ChatRoomServer\ChatRoomServer\main.cpp(307,79): warning : comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<std::pair<_IO_FILE*, unsigned int> >::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+D:\CODE\MYCODE\ChatRoomServer\ChatRoomServer\main.cpp(307,79): warning :   307 |                                                         for (index = 0; index < uploadQueue.size(); ++index) {
+D:\CODE\MYCODE\ChatRoomServer\ChatRoomServer\main.cpp(307,79): warning :       |                                                                         ~~~~~~^~~~~~~~~~~~~~~~~~~~
+  正在链接对象
+  ChatRoomServer.vcxproj -> D:\CODE\MYCODE\ChatRoomServer\ChatRoomServer\bin\x64\Debug\ChatRoomServer.out
